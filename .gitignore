@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+bun.lock
+
+# Environment variables
+.env
+env.txt
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Excel files (pueden contener datos sensibles)
+*.xlsx
+*.xls
+
+# JSON de resultados (pueden contener datos sensibles)
+*.json
+!package.json
+!package-lock.json
+
+# Reportes y archivos generados
+*_report.json
+*_simple.json
+*_completo.json
+comparacion_*.json
+exact_match_*.json
+knowledge_*.json
+vectorization_*.json
+

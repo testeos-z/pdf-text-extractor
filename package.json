@@ -1,0 +1,29 @@
+{
+  "name": "gobernai-bucket-checker",
+  "version": "1.0.0",
+  "description": "Script para revisar archivos en el bucket vector de Supabase",
+  "main": "check-bucket.js",
+  "scripts": {
+    "start": "bun run check-bucket.js",
+    "check-bucket": "bun run check-bucket.js",
+    "check-excel": "bun run check-excel.js",
+    "extract-names": "bun run extract-document-names.js",
+    "compare-docs": "bun run compare-documents.js",
+    "extract-ids": "bun run extract-exact-match-ids.js",
+    "check-knowledge": "bun run check-knowledge-documents.js",
+    "count-idfiles": "bun run count-unique-idfiles.js",
+    "vectorize-iadb": "bun run vectorize-iadb-documents.js",
+    "query-vector": "bun run query-vector.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.3.1",
+    "p-limit": "^4.0.0",
+    "readline": "^1.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
