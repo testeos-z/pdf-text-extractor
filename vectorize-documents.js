@@ -17,7 +17,7 @@ if (!supabaseUrl || !supabaseKey) {
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Configuración
-const API_URL = 'http://localhost:3000/process-text';
+const API_URL = 'https://gobernai-vector-api-dev.up.railway.app/process-text';
 
 async function vectorizeIADBDocuments() {
   try {
